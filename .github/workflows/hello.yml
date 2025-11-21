@@ -14,6 +14,6 @@ jobs:
       - run: cd template-progetto
       - run: ls
       - run: pwd
-        working-directory: template-progetto
+        working-directory: Azienda
       - run: mvn install
-        working-directory: template-progetto
+        working-directory: Azienda
