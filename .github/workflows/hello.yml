@@ -1,4 +1,11 @@
 name: Github Actions
 on:
   push:
-  
+jobs:
+  italian-job:
+    runs-on: ubutntu-latest
+    steps:
+      - run: ls
+      - run: sudo apt update
+      - run: pwd
+      - run: ls -la
