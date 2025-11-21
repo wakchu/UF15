@@ -1,3 +1,5 @@
+package com.azienda;
+
 public class Dipendente {
     private String nome;
     private String cognome;
